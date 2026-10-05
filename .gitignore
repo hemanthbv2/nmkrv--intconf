@@ -1,0 +1,28 @@
+# Scratch & Testing Scripts
+*.py
+*.ps1
+sample_script_extracted.js
+
+# Scratch & Temporary Web/DOM dumps
+dump_*.txt
+drawer_inspect_dom.txt
+*.log
+test_*.html
+debug_*.html
+http_*.html
+
+# Editor / System files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary Test Screenshots in root (Preserves assets/ directory and original poster)
+*.png
+*.jpg
+*.webp
+!assets/**
+!Image_20260925_163106_712.png
+
+# Screen Audit Directories
+audit_screens/
+perfect_screens/
