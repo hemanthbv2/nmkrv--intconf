@@ -153,40 +153,55 @@
       </div>
 
       <!-- PAYMENT GUIDANCE & BANK TRANSFER DETAILS (SECTION 11) -->
-      <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 32px; align-items: center;">
-        <div class="glass-card" style="border-color: var(--border-gold-glow);">
-          <h3 style="font-family: var(--font-title); font-size: 1.3rem; color: var(--gold-light); margin-bottom: 16px; display: flex; align-items: center; gap: 10px;">
+      <div style="display: flex; flex-direction: column; gap: 28px; max-width: 900px; margin: 0 auto;">
+        
+        <!-- OFFICIAL BANK PAYMENT DETAILS -->
+        <div class="glass-card" style="border-color: var(--border-gold-glow); padding: 32px;">
+          <h3 style="font-family: var(--font-title); font-size: 1.35rem; color: var(--gold-light); margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
             <i class="fa-solid fa-building-columns"></i> Official Bank Payment Details
           </h3>
-          <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 18px;">
-            Participants may transfer registration fees directly to the institutional conference account via NEFT, RTGS, IMPS, or UPI. Retain transaction UTR number / screenshot for registration confirmation.
+          <p style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 22px;">
+            Participants may transfer registration fees directly to the institutional conference account via NEFT, RTGS, IMPS, or Net Banking. Retain transaction UTR number / payment screenshot for registration confirmation.
           </p>
-          <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.9rem;">
-            <div style="background: rgba(4,8,20,0.6); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
-              <strong style="color: #ffffff;">Account Name:</strong> NMKRV College, Bengaluru. / Conference Account
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px;">
+            <div style="background: rgba(4,8,20,0.65); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
+              <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">Bank Name</span>
+              <strong style="color: #ffffff; font-size: 1.05rem;">BANK OF MAHARASHTRA</strong>
             </div>
-            <div style="background: rgba(4,8,20,0.6); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
-              <strong style="color: #ffffff;">Bank Name:</strong> Bank of Maharashtra
+            <div style="background: rgba(4,8,20,0.65); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
+              <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">Account Name</span>
+              <strong style="color: #ffffff; font-size: 1.05rem;">PRINCIPAL NMKRV COLLEGE</strong>
             </div>
-            <div style="background: rgba(4,8,20,0.6); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
-              <strong style="color: #ffffff;">Branch:</strong> Jayanagar, Bengaluru
+            <div style="background: rgba(4,8,20,0.65); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
+              <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">Account No</span>
+              <strong style="color: var(--cyan-primary); font-family: monospace; font-size: 1.2rem; letter-spacing: 0.06em;">60036838035</strong>
             </div>
-            <div style="background: rgba(4,8,20,0.6); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
-              <strong style="color: #ffffff;">Account No. &amp; IFSC:</strong> <span class="status-badge tbc">[TO BE CONFIRMED]</span>
+            <div style="background: rgba(4,8,20,0.65); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass);">
+              <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">IFSC Code</span>
+              <strong style="color: var(--gold-light); font-family: monospace; font-size: 1.15rem; letter-spacing: 0.06em;">MAHB0001374</strong>
+            </div>
+            <div style="background: rgba(4,8,20,0.65); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-glass); grid-column: 1 / -1;">
+              <span style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 4px;">Branch Name</span>
+              <strong style="color: #ffffff; font-size: 1rem;">3<sup>RD</sup> BLOCK JAYANAGAR, BANGALORE 560021</strong>
             </div>
           </div>
         </div>
 
-        <div class="glass-card" style="text-align: center; border-color: var(--border-cyan-glow);">
-          <h4 style="font-family: var(--font-title); font-size: 1.15rem; color: #ffffff; margin-bottom: 8px;">Quick UPI Payment</h4>
-          <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 16px;">Scan with Google Pay, PhonePe, Paytm, or BHIM</p>
-          <div style="background: #ffffff; padding: 14px; border-radius: var(--radius-md); display: inline-block; box-shadow: 0 0 25px rgba(0,242,254,0.3); margin-bottom: 14px;">
-            <img src="assets/bank_qr.png" alt="Payment QR Code" style="width: 170px; height: 170px; object-fit: contain;">
+        <!-- QR SCAN BOX (BELOW BANK DETAILS) -->
+        <div class="glass-card" style="text-align: center; border-color: var(--border-cyan-glow); padding: 32px; max-width: 460px; margin: 0 auto; width: 100%;">
+          <div style="color: #e11d48; font-weight: 800; font-size: 1.05rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+            <i class="fa-solid fa-qrcode"></i> QR SCAN
           </div>
-          <div style="font-size: 0.8rem; color: var(--gold-light); font-weight: 700;">
-            <i class="fa-solid fa-lock"></i> Verified NMKRV Conference QR
+          <h4 style="font-family: var(--font-title); font-size: 1.25rem; color: #ffffff; margin-bottom: 6px;">Quick UPI Payment</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 18px;">Scan with Google Pay, PhonePe, Paytm, or BHIM</p>
+          <div style="background: #ffffff; padding: 16px; border-radius: var(--radius-md); display: inline-block; box-shadow: 0 0 35px rgba(0,242,254,0.35); margin-bottom: 16px;">
+            <img src="assets/bank_qr.png" alt="Official NMKRV Payment QR Code" style="width: 210px; height: 210px; object-fit: contain; display: block; border-radius: 4px;">
+          </div>
+          <div style="font-size: 0.85rem; color: var(--gold-light); font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 6px;">
+            <i class="fa-solid fa-circle-check" style="color: var(--emerald-primary);"></i> Verified NMKRV College Account
           </div>
         </div>
+
       </div>
 
     </div>
