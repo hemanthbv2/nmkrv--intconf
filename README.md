@@ -1,5 +1,5 @@
 # International Management Conference 2027 (IMC 2027)
-### Department of Management · NMKRV College for Women (Autonomous) · Bengaluru
+### Department of Management · NMKRV College, Bengaluru.
 **Rashtreeya Sikshana Samithi Trust (RSST — Established 1940)**
 
 ---
@@ -8,9 +8,8 @@
 
 - **Theme:** *“Digital Transformation and Sustainability in Business Management: Emerging Trends, Innovations, and Future Perspectives”*
 - **Dates:** 11th & 12th February 2027
-- **Venue:** NMKRV College, Jayanagar, Bengaluru, Karnataka, India
+- **Venue:** NMKRV College, Bengaluru
 - **Mode:** Hybrid Mode (In-Person & Virtual Presentations)
-- **Institution Accreditation:** NAAC 'A+' Accredited · Autonomous Institution
 
 ---
 
@@ -62,5 +61,5 @@ python -m http.server 8000
 
 ## 🏛️ Institutional Heritage
 
-**Rashtreeya Sikshana Samithi Trust (RSST)** has been pioneering academic excellence in India since 1940. **NMKRV College for Women (Autonomous)** was established in 1973 in cherished memory of Sri Meda Kasturiranga Setty and Smt. Nagarathnamma Meda Kasturiranga Setty with the vision:
+**Rashtreeya Sikshana Samithi Trust (RSST)** has been pioneering academic excellence in India since 1940. **NMKRV College, Bengaluru.** was established in 1973 in cherished memory of Sri Meda Kasturiranga Setty and Smt. Nagarathnamma Meda Kasturiranga Setty with the vision:
 > *"Educating a girl child is like educating an entire family."*
