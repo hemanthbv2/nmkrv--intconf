@@ -15,48 +15,57 @@
 </head>
 <body>
 
-  <!-- Main Navigation Header -->
+      <!-- Main Navigation Header (Row 1: Logo & Actions | Row 2: Navigation Menus) -->
   <header class="main-header" id="mainHeader">
-    <div class="container nav-container">
-      <a href="index.html" class="brand-group" title="NMKRV College - Department of Management">
-        <div class="brand-logo-crest">
-          <span class="crest-rv">RV</span>
-          <span class="crest-sub">RSST</span>
-        </div>
-        <div class="brand-text-group">
-          <span class="brand-title-top">RSST Established 1940</span>
-          <span class="brand-college-name">NMKRV College</span>
-          <span class="brand-dept-name">Department of Management</span>
-        </div>
-      </a>
+    <!-- Row 1: Logo & Action CTAs -->
+    <div class="header-top-row">
+      <div class="container header-top-inner">
+        <a href="index.html" class="brand-group" title="NMKRV College - Department of Management">
+          <div class="brand-logo-crest">
+            <span class="crest-rv">RV</span>
+            <span class="crest-sub">RSST</span>
+          </div>
+          <div class="brand-text-group">
+            <span class="brand-title-top">RSST Established 1940</span>
+            <span class="brand-college-name">NMKRV College</span>
+            <span class="brand-dept-name">Department of Management</span>
+          </div>
+        </a>
 
-      <!-- Navigation (Unified Glass Capsule Console) -->
-      <nav class="nav-menu" id="navMenu">
-        <ul class="nav-row nav-row-top">
-          <li><a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
-          <li><a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info"></i> About</a></li>
-          <li><a href="important-dates.html" class="nav-link"><i class="fa-solid fa-calendar-days"></i> Important Dates</a></li>
-          <li><a href="call-for-papers.html" class="nav-link"><i class="fa-solid fa-file-lines"></i> Call for Papers</a></li>
-          <li><a href="tracks.html" class="nav-link"><i class="fa-solid fa-layer-group"></i> Tracks / Themes</a></li>
-          <li><a href="speakers.html" class="nav-link"><i class="fa-solid fa-microphone"></i> Speakers</a></li>
-          <li><a href="registration.html" class="nav-link"><i class="fa-solid fa-ticket"></i> Registration</a></li>
-        </ul>
-        <div class="nav-row-divider"></div>
-        <ul class="nav-row nav-row-bottom">
-          <li><a href="committee.html" class="nav-link active"><i class="fa-solid fa-users"></i> Committee</a></li>
-          <li><a href="sponsors.html" class="nav-link"><i class="fa-solid fa-handshake"></i> Sponsors</a></li>
-          <li><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact Us</a></li>
-        </ul>
-      </nav>
-
-      <div class="nav-actions">
-        <a href="call-for-papers.html" class="btn-header-submit"><i class="fa-solid fa-paper-plane"></i> Submit Abstract</a>
-        <a href="registration.html" class="btn-header-register"><i class="fa-solid fa-ticket"></i> Register Now</a>
+        <div class="header-top-actions">
+          <div class="nav-actions">
+            <a href="call-for-papers.html" class="btn-header-submit"><i class="fa-solid fa-paper-plane"></i> Submit Abstract</a>
+            <a href="registration.html" class="btn-header-register"><i class="fa-solid fa-ticket"></i> Register Now</a>
+          </div>
+          <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
       </div>
+    </div>
 
-      <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-      </button>
+    <!-- Row 2: Navigation Menus -->
+    <div class="header-nav-row">
+      <div class="container header-nav-inner">
+        <nav class="nav-menu" id="navMenu">
+          <div class="drawer-actions">
+            <a href="call-for-papers.html" class="btn-drawer-submit"><i class="fa-solid fa-paper-plane"></i> Submit Abstract</a>
+            <a href="registration.html" class="btn-drawer-register"><i class="fa-solid fa-ticket"></i> Register Now</a>
+          </div>
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info"></i> About</a></li>
+            <li><a href="important-dates.html" class="nav-link"><i class="fa-solid fa-calendar-days"></i> Important Dates</a></li>
+            <li><a href="call-for-papers.html" class="nav-link"><i class="fa-solid fa-file-lines"></i> Call for Papers</a></li>
+            <li><a href="tracks.html" class="nav-link"><i class="fa-solid fa-layer-group"></i> Tracks / Themes</a></li>
+            <li><a href="speakers.html" class="nav-link"><i class="fa-solid fa-microphone"></i> Speakers</a></li>
+            <li><a href="registration.html" class="nav-link"><i class="fa-solid fa-ticket"></i> Registration</a></li>
+            <li><a href="committee.html" class="nav-link active"><i class="fa-solid fa-users"></i> Committee</a></li>
+            <li><a href="sponsors.html" class="nav-link"><i class="fa-solid fa-handshake"></i> Sponsors</a></li>
+            <li><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
